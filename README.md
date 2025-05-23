@@ -53,7 +53,7 @@ Projede kullanılan veri setleri ve kaynaklar:
 
 - [Kaggle Veri Seti Linki](https://www.kaggle.com/datasets/muonneutrino/us-census-demographic-data) 
 
-- [Proje Not Defteri (Notebook)](https://github.com/...) *(Proje kodlarının bulunduğu GitHub veya başka repo linki)*
+- [Proje Not Defteri (Notebook)](https://www.kaggle.com/code/yigitdede/introml-project)
 
 ---
 
