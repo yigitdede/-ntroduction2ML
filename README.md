@@ -1,5 +1,5 @@
 # introduction2ML
-#Regresyon Modelleri ile Veri Analizi ve Tahmini
+##Regresyon Modelleri ile Veri Analizi ve Tahmini
 
 ## Giriş
 
