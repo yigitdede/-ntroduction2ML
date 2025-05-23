@@ -3,7 +3,7 @@
 
 ## Giriş
 
-Bu projede, elinizdeki veri seti üzerinde farklı regresyon algoritmaları kullanılarak hedef değişkenin tahmini yapılmıştır. Veri seti üzerinde öncelikle veri temizliği ve ön işleme işlemleri gerçekleştirilmiş, ardından çeşitli regresyon modelleri eğitilmiştir. Kullanılan modeller arasında Linear Regression, Ridge, Lasso, Decision Tree, Random Forest ve Gradient Boosting yer almaktadır. Model performansları farklı hata metrikleri ve R² skoru ile karşılaştırılmıştır.
+Bu projede, veri seti üzerinde farklı regresyon algoritmaları kullanılarak hedef değişkenin tahmini yapılmıştır. Veri seti üzerinde öncelikle veri temizliği ve ön işleme işlemleri gerçekleştirilmiş, ardından çeşitli regresyon modelleri eğitilmiştir. Kullanılan modeller arasında Linear Regression, Ridge, Decision Tree, Random Forest ve Gradient Boosting yer almaktadır. Model performansları farklı hata metrikleri ve R² skoru ile karşılaştırılmıştır.
 
 ## Veri Seti
 
@@ -13,7 +13,6 @@ Bu proje kapsamında kullanılan veri seti, ABD nüfus sayımı verilerine dayan
 
 - **Linear Regression:** Temel doğrusal regresyon modeli.
 - **Ridge Regression:** L2 regularizasyonlu doğrusal regresyon.
-- **Lasso Regression:** L1 regularizasyonlu doğrusal regresyon.
 - **Decision Tree Regressor:** Karar ağaçları temelli regresyon.
 - **Random Forest Regressor:** Birden fazla karar ağacından oluşan ansambl yöntemi.
 - **Gradient Boosting Regressor:** Ardışık öğrenme yöntemiyle model hatalarını azaltmaya çalışan ansambl yöntemi.
@@ -23,7 +22,7 @@ Bu proje kapsamında kullanılan veri seti, ABD nüfus sayımı verilerine dayan
 Projede farklı regresyon modelleri kullanılarak model performansları çeşitli hata metrikleri (MSE, RMSE, MAE) ve R² skoru ile değerlendirildi. Yapılan değerlendirmeler sonucunda:
 
 - **Random Forest** ve **Gradient Boosting** modelleri, verideki karmaşıklığı ve ilişkileri daha iyi yakalayarak en iyi sonuçları verdi.
-- **Ridge** ve **Lasso** regresyon modelleri makul performans sergiledi fakat ansambl yöntemlerin gerisinde kaldı.
+- **Ridge** regresyon modeli makul performans sergiledi fakat ansambl yöntemlerin gerisinde kaldı.
 - **Decision Tree** modelleri, ansambl modellere kıyasla daha düşük performans gösterdi.
 - **Linear Regression** modeli, veri setindeki olası sorunlar ve doğrusal varsayımların sağlanmaması nedeniyle beklenmedik ve kötü sonuçlar ortaya koydu.
 
@@ -40,7 +39,7 @@ Model doğruluğunu ölçmek için kullanılan metrikler:
 
 ## Sonuç ve Gelecek Çalışmalar
 
-Bu çalışma kapsamında, Random Forest modeli en iyi performansı gösterdiğinden sonraki aşamalarda bu model üzerine yoğunlaşılmıştır. Model performansının artırılması için:
+Bu çalışma kapsamında, Random Forest modeli en iyi performansı gösterdiğinden sonraki aşamalarda bu model üzerine yoğunlaşılmıştır. Model performansının arttırılması için:
 
 - Hiperparametre optimizasyonları yapılabilir (ör. GridSearchCV, RandomizedSearchCV).
 - Veri ön işleme ve özellik mühendisliği teknikleri geliştirilebilir.
